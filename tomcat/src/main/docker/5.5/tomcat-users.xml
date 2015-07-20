@@ -32,5 +32,5 @@
   <role rolename="manager-status"/>
   <role rolename="manager-script"/>
   <role rolename="manager-jmx"/>
-  <user name="admin" password="admin" roles="admin-gui,admin-script,manager-gui,manager-status,manager-script,manager-jmx"/>
+  <user name="mgcnrx11" password="FQxWkRs9T6UwNzFYWYWqmzAF" roles="admin-gui,admin-script,manager-gui,manager-status,manager-script,manager-jmx"/>
 </tomcat-users>

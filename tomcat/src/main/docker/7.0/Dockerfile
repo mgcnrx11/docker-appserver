@@ -1,4 +1,4 @@
-FROM jolokia/java-jolokia:7
+FROM jolokia/java-jolokia:8
 
 MAINTAINER roland@jolokia.org
 
@@ -13,6 +13,9 @@ RUN wget http://archive.apache.org/dist/tomcat/tomcat-7/v${TOMCAT_VERSION}/bin/a
 
 # Add roles
 ADD tomcat-users.xml /opt/apache-tomcat-${TOMCAT_VERSION}/conf/
+
+# Add Server.xml
+ADD server.xml /opt/apache-tomcat-${TOMCAT_VERSION}/conf/
 
 # Jolokia config
 ADD jolokia.properties /opt/jolokia/jolokia.properties

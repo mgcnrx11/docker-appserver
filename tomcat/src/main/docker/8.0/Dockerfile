@@ -1,4 +1,4 @@
-FROM jolokia/java-jolokia:7
+FROM jolokia/java-jolokia:8
 
 MAINTAINER roland@jolokia.org
 
